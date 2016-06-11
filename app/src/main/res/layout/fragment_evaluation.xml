@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvCriteriaName"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Criterio de Evaluación"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/tvCriteriaDescription"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Descripción del criterio de Evaluación"
+        android:textStyle="normal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvEvaluation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

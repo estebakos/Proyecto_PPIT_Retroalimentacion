@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ppi</string>
+    <string name="ws_url">http://192.168.43.117:8080/RestPpii/webresources/</string>
+
+    <string-array name="identification_types">
+        <item>Cédula de Ciudadanía</item>
+        <item>Tarjeta de Identidad</item>
+        <item>Cédula de Extranjería</item>
+    </string-array>
+
+    <string name="action_previous">Anterior</string>
+    <string name="action_next">Siguiente</string>
+    <string name="action_finish">Finalizar</string>
+
+</resources>
